@@ -1,0 +1,29 @@
+body {
+    background-color: #111;
+    color: #00ffcc;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #video-canvas-container {
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  
+  #video {
+    width: 720px;
+    height: 540px;
+    border-radius: 10px;
+    transform: scaleX(-1); /* video oynadagi kabi */
+  }
+  
+  #canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scaleX(-1); /* video bilan sinxron ishlaydi */
+  }
+  
